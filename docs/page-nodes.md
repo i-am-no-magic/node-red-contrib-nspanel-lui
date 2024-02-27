@@ -71,6 +71,7 @@ Page item related data must be sent using the _data_ topic.
         "entityId": "string",
         "icon": "string",
         "iconColor": "string",
+        "iconSize": "number",
         "text": "string"
         // <... further entity-specific data ...>
     }
@@ -82,6 +83,7 @@ Page item related data must be sent using the _data_ topic.
 | `entityId`  | id of entity specified in configuration                        |
 | `icon`      | optional, icon to display                                      |
 | `iconColor` | optional, hex rgb (`#rrggbb`) or integer format (`rgb(R,G,B)`) |
+| 'iconSize`  | optional, icon size (0-3)                                      |
 | `text`      | optional, text to be shown                                     |
 
 Additional data must be specified depending on the entity type.
